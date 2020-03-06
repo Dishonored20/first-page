@@ -59,6 +59,11 @@
     padding-right: 30px;
 }
 
+.search-box__input {
+    position: relative;
+    max-width: 200px; /* same as input */
+}
+
 .search-txt{
     background-color: lightgray;
     border: none;
@@ -69,9 +74,13 @@
     padding: 0 10px;
 }
 
-.search-btn img{
-   float: right ;
-   display: flex;   
-   height: 12px;
-   
+.search-btn {
+   position: absolute;
+   top: 0;
+   right: 10px;
+}
+
+.search-btn img {
+    height: 12px;
+    width: auto;
 }
